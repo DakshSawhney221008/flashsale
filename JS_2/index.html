@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Sale</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+          <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/2.png" alt="Los Angeles" style="width: 100%; height: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/3.png" alt="Chicago"  style="width: 100%; height: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/5.png" alt="New York"  style="width: 100%; height: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/4.png" alt="New York" style="width: 100%; height: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ecommerce-flashsale.campk12web.repl.co/images/1.png" alt="New York" style="width: 100%; height: 100%;">
+          </div>
+        </div>
+    </div>
+
+    <div class="timer" style="position: absolute;top: 0; margin: 13vh;">
+        <p style="width: 10vw; padding: 10px; background-color: teal; color: white;">
+           Sale ends in 
+        </p>
+    </div>
+    
+    <div class="row text-center" style="position: absolute;top: 0; margin-top: 30vh; margin-left: 10vh; color: white;">
+        <div class="col m-2 p-3" style="background-color: teal;"><p id="hours">15</p>Hours</div>
+        <div class="col m-2 p-3" style="background-color: teal;"><p id="minutes">20</p>Minutes</div>
+        <div class="col m-2 p-3" style="background-color: teal;"><p id="seconds">60</p>Seconds</div>
+    </div>
+     
+    <script src="script.js"></script>
+</body>
+</html>
